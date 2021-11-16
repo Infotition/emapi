@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+src/parser/mapi.js
+
+# config
+jest.config.js
+
+# build
+/dist
