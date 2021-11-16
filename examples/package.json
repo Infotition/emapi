@@ -3,6 +3,6 @@
   "author": "Infotition",
   "license": "MIT",
   "dependencies": {
-    "emapi": "^2.0.0"
+    "emapi": "^2.0.2"
   }
 }
