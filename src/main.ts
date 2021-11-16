@@ -1,5 +1,4 @@
 import moo from 'moo';
-import util from 'util';
 
 type Token =
   | Heading
@@ -247,11 +246,4 @@ const parse = (code: string): MapiAST => {
   return parsed;
 };
 
-const print = (ast: MapiAST) => {
-  console.log(
-    util.inspect(ast, { showHidden: false, depth: null, colors: true })
-  );
-};
-
 export default parse;
-export { print };

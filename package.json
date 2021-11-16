@@ -1,6 +1,6 @@
 {
   "name": "emapi",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Fast, minimalist and reliable Markdown parser with infotition component extensions.",
   "author": "infotition",
   "license": "MIT",
@@ -13,9 +13,7 @@
     "markdown",
     "parser"
   ],
-  "typings": "main.d.ts",
-  "main": "./dist/tsc/main.js",
-  "types": "./dist/tsc/main.d.ts",
+  "main": "./dist/esbuild/main.js",
   "browser": "./dist/esbuild/browser.js",
   "bin": {
     "cli-tool": "./dist/esbuild/cli.js"
@@ -27,9 +25,9 @@
     "clean": "rmdir /s /q dist || exit 0",
     "docs": "typedoc --entryPoints src/main.ts",
     "ts-node": "ts-node",
-    "build:all": "npm run clean && npm run  build && npm run  esbuild:cli && npm run esbuild:browser",
+    "build:all": "npm run clean && npm run build && npm run esbuild:cli && npm run esbuild:browser",
     "build": "tsc -p tsconfig.json",
-    "esbuild:node": "esbuild src/main.ts --bundle --platform=node --minify --sourcemap=external --external:moo --outfile=dist/esbuild/main.js ",
+    "esbuild:node": "esbuild src/main.ts --bundle --platform=node --minify --sourcemap=external --outfile=dist/esbuild/main.js ",
     "esbuild:browser": "esbuild src/browser.ts --bundle --minify --sourcemap=external --outfile=dist/esbuild/browser.js",
     "esbuild:cli": "esbuild src/cli.ts --bundle --platform=node --minify --sourcemap=external --outfile=dist/esbuild/cli.js"
   },

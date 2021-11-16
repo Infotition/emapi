@@ -1,0 +1,8 @@
+{
+  "name": "examples",
+  "author": "Infotition",
+  "license": "MIT",
+  "dependencies": {
+    "emapi": "^2.0.0"
+  }
+}

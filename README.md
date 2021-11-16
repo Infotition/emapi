@@ -75,7 +75,7 @@ Now everything should be working fine. If you have any problems, don't hesitate 
 # Examples
 
 ```javascript
-const parse, {print} = require('mapi');
+const parse = require('mapi');
 
 const ast = parse(`
 # Hello! I am Mapi!
@@ -89,7 +89,7 @@ $$
 $$
 `);
 
-print(ast)
+console.log(ast)
 ```
 
 Output:

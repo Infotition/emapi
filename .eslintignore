@@ -7,3 +7,4 @@ jest.config.js
 
 # build
 /dist
+examples
