@@ -9,7 +9,7 @@ assignees: ''
 
 **Thank you in advance for helping us to improve this repository!** Please read through the template below and answer all relevant questions. Your additional work here is greatly appreciated and will help us respond as quickly as possible. For general support or usage questions, use the [Infotition Discord Server](https://discord.gg/NpxrDGYDwV"). Finally, to avoid duplicates, please search existing Issues before submitting one here.
 
-By submitting an Issue to this repository, you agree to the terms within the [Infotition Code of Conduct](https://github.com/Infotition/mapi/blob/main/.github/CODE_OF_CONDUCT.md).
+By submitting an Issue to this repository, you agree to the terms within the [Infotition Code of Conduct](https://github.com/Infotition/emapi/blob/main/.github/CODE_OF_CONDUCT.md).
 
 ### Describe the problem you'd like to have solved
 

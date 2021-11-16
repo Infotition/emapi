@@ -1,4 +1,4 @@
-By submitting a pull request (PR) to this repository, you agree to the terms within the [Infotition Code of Conduct](https://github.com/Infotition/mapi/blob/main/.github/CODE_OF_CONDUCT.md). Please see the [contributing guidelines](https://github.com/Infotition/mapi/blob/main/.github/CONTRIBUTING.md) for how to create and submit a high-quality PR for this repo.
+By submitting a pull request (PR) to this repository, you agree to the terms within the [Infotition Code of Conduct](https://github.com/Infotition/emapi/blob/main/.github/CODE_OF_CONDUCT.md). Please see the [contributing guidelines](https://github.com/Infotition/emapi/blob/main/.github/CONTRIBUTING.md) for how to create and submit a high-quality PR for this repo.
 
 ## Description
 

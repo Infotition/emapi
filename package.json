@@ -1,6 +1,6 @@
 {
   "name": "emapi",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fast, minimalist and reliable Markdown parser with infotition component extensions.",
   "author": "infotition",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "markdown",
     "parser"
   ],
-  "main": "./dist/esbuild/main.js",
+  "main": "./dist/tsc/main.js",
   "browser": "./dist/esbuild/browser.js",
   "bin": {
     "cli-tool": "./dist/esbuild/cli.js"
